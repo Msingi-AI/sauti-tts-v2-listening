@@ -2,70 +2,70 @@
   "summary": {
     "overall": {
       "openai/whisper-large-v3": {
-        "wer": 7.7103,
-        "cer": 5.8377
+        "wer": 4.187,
+        "cer": 3.1472
       },
       "Jacaranda-Health/ASR-STT": {
-        "wer": 11.2835,
-        "cer": 7.3292
+        "wer": 4.7245,
+        "cer": 3.0386
       },
-      "utmos": 2.293
+      "utmos": 2.378
     },
     "overall_plain_sw": {
       "openai/whisper-large-v3": {
-        "wer": 7.382,
-        "cer": 5.5925
+        "wer": 3.1753,
+        "cer": 2.2945
       },
       "Jacaranda-Health/ASR-STT": {
-        "wer": 10.6866,
-        "cer": 7.0785
+        "wer": 3.5572,
+        "cer": 2.3312
       },
-      "utmos": 2.259
+      "utmos": 2.419
     },
     "by_category": {
       "code_switch": {
         "openai/whisper-large-v3": {
-          "wer": 8.6953,
-          "cer": 6.573
+          "wer": 7.222,
+          "cer": 5.7052
         },
         "Jacaranda-Health/ASR-STT": {
-          "wer": 13.074,
-          "cer": 8.0813
+          "wer": 8.2263,
+          "cer": 5.1607
         },
-        "utmos": 2.395
+        "utmos": 2.256
       },
       "general": {
         "openai/whisper-large-v3": {
-          "wer": 11.8303,
-          "cer": 8.8527
+          "wer": 4.6798,
+          "cer": 3.3678
         },
         "Jacaranda-Health/ASR-STT": {
-          "wer": 13.4406,
-          "cer": 9.5455
+          "wer": 4.2039,
+          "cer": 2.7888
         },
-        "utmos": 2.113
+        "utmos": 2.383
       },
       "named_entities": {
         "openai/whisper-large-v3": {
-          "wer": 7.4235,
-          "cer": 5.5978
+          "wer": 4.5762,
+          "cer": 3.4634
         },
         "Jacaranda-Health/ASR-STT": {
-          "wer": 10.8021,
-          "cer": 6.8239
+          "wer": 6.4433,
+          "cer": 4.1979
         },
-        "utmos": 2.463
+        "utmos": 2.451
       },
       "numbers_dates": {
         "openai/whisper-large-v3": {
-          "wer": 2.8922,
-          "cer": 2.3271
+          "wer": 0.27,
+          "cer": 0.0523
         },
         "Jacaranda-Health/ASR-STT": {
-          "wer": 7.8171,
-          "cer": 4.8661
+          "wer": 0.0245,
+          "cer": 0.0068
         },
-        "utmos": 2.201
+        "utmos": 2.422
       }
     },
     "n_clips": 48
@@ -75,16 +75,16 @@
       "category": "general",
       "ref": "habari za asubuhi karibu katika matangazo yetu ya leo",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 16.4444,
-        "cer": 13.3396
+        "hyp": "habari za asubuhi karibu katika matangazo yetu ya leo",
+        "wer": 0.0,
+        "cer": 0.0
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 24.6667,
-        "cer": 16.3208
+        "hyp": "habari za asubuhi karibu katika matangazo yetu ya leo",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 2.742
+      "utmos": 2.613
     },
     "gen_002": {
       "category": "general",
@@ -99,22 +99,22 @@
         "wer": 24.6667,
         "cer": 16.2453
       },
-      "utmos": 1.92
+      "utmos": 1.919
     },
     "gen_003": {
       "category": "general",
       "ref": "watoto wanapenda kucheza mpira uwanjani kila jioni",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 21.1429,
-        "cer": 14.2
+        "hyp": "watoto wanapenda kucheza mpira uwanjani kila jioni",
+        "wer": 0.0,
+        "cer": 0.0
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 31.7143,
-        "cer": 17.36
+        "hyp": "watoto wanapenda kucheza mpira uwanjani kila jioni",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 1.789
+      "utmos": 2.728
     },
     "gen_004": {
       "category": "general",
@@ -135,31 +135,31 @@
       "category": "general",
       "ref": "soko la kariakoo lina bidhaa za kila aina kwa bei nafuu",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 13.3636,
-        "cer": 12.7273
+        "hyp": "soko la kariakuli inabidaza kila aina kwa benafu",
+        "wer": 0.5455,
+        "cer": 0.2
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "tikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikikik",
-        "wer": 1.0,
-        "cer": 15.9273
+        "hyp": "soko la kariakuli na bidaa za kila aina kwa benafu",
+        "wer": 0.4545,
+        "cer": 0.1455
       },
-      "utmos": 2.08
+      "utmos": 3.168
     },
     "gen_006": {
       "category": "general",
       "ref": "tafadhali funga mlango kabla ya kuondoka nyumbani",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 21.1429,
-        "cer": 14.5306
+        "hyp": "tafadhali funga mlango kabla ya kuandoka nyumbani",
+        "wer": 0.1429,
+        "cer": 0.0204
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 31.7143,
-        "cer": 17.7143
+        "hyp": "tafadhali funga mlango kabla ya kuondoka nyumbani",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 1.498
+      "utmos": 2.444
     },
     "gen_007": {
       "category": "general",
@@ -195,16 +195,16 @@
       "category": "general",
       "ref": "safari ya basi kutoka nairobi hadi mombasa huchukua masaa nane",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 14.8,
-        "cer": 11.3065
+        "hyp": "safari abasi kutoka nairobi hadi mombasa huchukua masanane",
+        "wer": 0.4,
+        "cer": 0.0645
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 22.2,
-        "cer": 13.9032
+        "hyp": "safari ya basi kutoka nairobi hadi mombasa huchukua masaa nane",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 2.742
+      "utmos": 3.137
     },
     "gen_010": {
       "category": "general",
@@ -330,16 +330,16 @@
       "category": "numbers_dates",
       "ref": "simu yangu mpya iligharimu shilingi elfu arobaini na tano",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 16.4444,
-        "cer": 12.4386
+        "hyp": "simu yangu mpia iligarimu shilingi elfu arobaini na tanu",
+        "wer": 0.3333,
+        "cer": 0.0526
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 24.6667,
-        "cer": 15.3158
+        "hyp": "simu yangu mpya iligarimu shilingi elfu arobaini na tano",
+        "wer": 0.1111,
+        "cer": 0.0175
       },
-      "utmos": 2.742
+      "utmos": 2.777
     },
     "num_007": {
       "category": "numbers_dates",
@@ -360,16 +360,16 @@
       "category": "numbers_dates",
       "ref": "tutaondoka saa kumi na mbili jioni tarehe tatu machi",
       "openai/whisper-large-v3": {
-        "hyp": "thank you for watching",
-        "wer": 1.0,
-        "cer": 0.75
+        "hyp": "tutahondoka saa kuminambili jioni tarehe tatu machi",
+        "wer": 0.4444,
+        "cer": 0.0577
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "muahua kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 24.5556,
-        "cer": 16.6731
+        "hyp": "tutaondoka saa kumi na mbili jioni tarehe tatu machi",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 1.403
+      "utmos": 2.81
     },
     "num_009": {
       "category": "numbers_dates",
@@ -420,61 +420,61 @@
       "category": "numbers_dates",
       "ref": "joto la leo ni nyuzi ishirini na nane mjini dodoma",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 14.8,
-        "cer": 14.22
+        "hyp": "joto la leo ni nyuzi ishirini na nane mjini dodoma",
+        "wer": 0.0,
+        "cer": 0.0
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya ya",
-        "wer": 44.4,
-        "cer": 26.34
+        "hyp": "joto la leo ni nyuzi ishirini na nane mjini dodoma",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 1.38
+      "utmos": 2.586
     },
     "cs_001": {
       "category": "code_switch",
       "ref": "nimetuma email kwa manager wako asubuhi hii",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 21.0,
-        "cer": 16.6047
+        "hyp": "nimetuma imayel kwa manage wako wa subuhihi",
+        "wer": 0.5714,
+        "cer": 0.186
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 31.5714,
-        "cer": 20.2326
+        "hyp": "nimetuma imeo kwa manage wako asubuhi hii",
+        "wer": 0.2857,
+        "cer": 0.1163
       },
-      "utmos": 1.753
+      "utmos": 2.503
     },
     "cs_002": {
       "category": "code_switch",
       "ref": "tafadhali download fomu hiyo kutoka kwenye website yetu",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 18.5,
-        "cer": 12.8727
+        "hyp": "tafadali download formu hiyo kutoka kwenye website yetu",
+        "wer": 0.25,
+        "cer": 0.0364
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 27.75,
-        "cer": 15.8182
+        "hyp": "tafadhali download formu hiyo kutoka kwenye website yetu",
+        "wer": 0.125,
+        "cer": 0.0182
       },
-      "utmos": 2.742
+      "utmos": 2.322
     },
     "cs_003": {
       "category": "code_switch",
       "ref": "mkutano wa zoom utaanza baada ya lunch",
       "openai/whisper-large-v3": {
-        "hyp": "mkutano wa zoom utaanza baada ya launch",
-        "wer": 0.1429,
-        "cer": 0.0263
+        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
+        "wer": 21.1429,
+        "cer": 18.8684
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "mkutano wa zoeo mutaanza baada ya lunj",
-        "wer": 0.4286,
-        "cer": 0.1316
+        "hyp": "t",
+        "wer": 1.0,
+        "cer": 0.9737
       },
-      "utmos": 2.633
+      "utmos": 1.834
     },
     "cs_004": {
       "category": "code_switch",
@@ -504,7 +504,7 @@
         "wer": 31.7143,
         "cer": 19.3111
       },
-      "utmos": 2.742
+      "utmos": 1.708
     },
     "cs_006": {
       "category": "code_switch",
@@ -515,11 +515,11 @@
         "cer": 0.0263
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "uweka password mpya kwenye akao yako",
-        "wer": 0.3333,
-        "cer": 0.1579
+        "hyp": "uweka password mpya kwenye akaonjako",
+        "wer": 0.5,
+        "cer": 0.1842
       },
-      "utmos": 2.658
+      "utmos": 2.972
     },
     "cs_007": {
       "category": "code_switch",
@@ -530,11 +530,11 @@
         "cer": 0.0244
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "tuliangalia mvye nzuri wikern iliyopita",
+        "hyp": "tuliangalia mvya nzuri wikendi iliyopita",
         "wer": 0.4,
         "cer": 0.1463
       },
-      "utmos": 2.44
+      "utmos": 1.953
     },
     "cs_008": {
       "category": "code_switch",
@@ -645,16 +645,16 @@
       "category": "named_entities",
       "ref": "ziwa victoria linapakana na kenya uganda na tanzania",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 18.5,
-        "cer": 13.5962
+        "hyp": "ziwa victoria linapakana na kenya uganda na tanzania",
+        "wer": 0.0,
+        "cer": 0.0
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 27.75,
-        "cer": 16.6154
+        "hyp": "ziwa victoria linapakana na kenya uganda na tanzania",
+        "wer": 0.0,
+        "cer": 0.0
       },
-      "utmos": 2.742
+      "utmos": 2.975
     },
     "ne_004": {
       "category": "named_entities",
@@ -675,16 +675,16 @@
       "category": "named_entities",
       "ref": "chuo kikuu cha nairobi kimepokea wanafunzi wapya elfu kumi",
       "openai/whisper-large-v3": {
-        "hyp": "kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo kwa hivyo",
-        "wer": 16.4444,
-        "cer": 12.1552
+        "hyp": "tuo kikuucha nairobi kimepokewa na funzi wapia elfu kumi",
+        "wer": 0.7778,
+        "cer": 0.1379
       },
       "Jacaranda-Health/ASR-STT": {
-        "hyp": "baba kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa kwa",
-        "wer": 24.6667,
-        "cer": 14.931
+        "hyp": "tuo kikuu cha nairobi kimepokea wanafunzi wapya elfu kumi",
+        "wer": 0.1111,
+        "cer": 0.0345
       },
-      "utmos": 2.742
+      "utmos": 2.358
     },
     "ne_006": {
       "category": "named_entities",
