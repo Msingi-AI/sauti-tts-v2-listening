@@ -1,0 +1,784 @@
+{
+  "summary": {
+    "overall": {
+      "openai/whisper-large-v3": {
+        "wer": 0.437,
+        "cer": 0.105
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "wer": 0.2199,
+        "cer": 0.0605
+      },
+      "utmos": 2.817
+    },
+    "by_category": {
+      "code_switch": {
+        "openai/whisper-large-v3": {
+          "wer": 0.6313,
+          "cer": 0.1767
+        },
+        "Jacaranda-Health/ASR-STT": {
+          "wer": 0.5032,
+          "cer": 0.1548
+        },
+        "utmos": 2.871
+      },
+      "general": {
+        "openai/whisper-large-v3": {
+          "wer": 0.3378,
+          "cer": 0.0704
+        },
+        "Jacaranda-Health/ASR-STT": {
+          "wer": 0.1296,
+          "cer": 0.0273
+        },
+        "utmos": 2.868
+      },
+      "named_entities": {
+        "openai/whisper-large-v3": {
+          "wer": 0.4013,
+          "cer": 0.0821
+        },
+        "Jacaranda-Health/ASR-STT": {
+          "wer": 0.1608,
+          "cer": 0.0328
+        },
+        "utmos": 2.88
+      },
+      "numbers_dates": {
+        "openai/whisper-large-v3": {
+          "wer": 0.3776,
+          "cer": 0.0907
+        },
+        "Jacaranda-Health/ASR-STT": {
+          "wer": 0.0861,
+          "cer": 0.0271
+        },
+        "utmos": 2.649
+      }
+    },
+    "n_clips": 48
+  },
+  "clips": {
+    "gen_001": {
+      "category": "general",
+      "ref": "habari za asubuhi karibu katika matangazo yetu ya leo",
+      "openai/whisper-large-v3": {
+        "hyp": "habari za asubuhi karibu katika matangazo yetu ya leo",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "habari za asubuhi karibu katika matangazo yetu ya leo",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.824
+    },
+    "gen_002": {
+      "category": "general",
+      "ref": "mvua kubwa ilinyesha jana usiku katika mkoa wa mwanza",
+      "openai/whisper-large-v3": {
+        "hyp": "mbuwa kubwa ilinesha jana usiku katika mkua wa muanza",
+        "wer": 0.4444,
+        "cer": 0.0943
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "mbua kubwa ilinyesha jana usiku katika mkoa wa mwanza",
+        "wer": 0.1111,
+        "cer": 0.0189
+      },
+      "utmos": 3.383
+    },
+    "gen_003": {
+      "category": "general",
+      "ref": "watoto wanapenda kucheza mpira uwanjani kila jioni",
+      "openai/whisper-large-v3": {
+        "hyp": "watoto wanapenda kusheza mpila uwanjani kila jioni",
+        "wer": 0.2857,
+        "cer": 0.04
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "watoto wanapenda kucheza mpira uwanjani kila jioni",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.873
+    },
+    "gen_004": {
+      "category": "general",
+      "ref": "serikali imetangaza mpango mpya wa kuboresha elimu nchini",
+      "openai/whisper-large-v3": {
+        "hyp": "zirikali imetangaza mpango mpia wakuburesha ilimu nchini",
+        "wer": 0.625,
+        "cer": 0.1053
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "serikali imetangaza mpango mpya wa kuboresha elimu nchini",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.334
+    },
+    "gen_005": {
+      "category": "general",
+      "ref": "soko la kariakoo lina bidhaa za kila aina kwa bei nafuu",
+      "openai/whisper-large-v3": {
+        "hyp": "soko lakali yako linabidaza kila aina kwa binafu",
+        "wer": 0.6364,
+        "cer": 0.2182
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "soko la kali ya koo lina bidhaa za kila aina kwa binafuu",
+        "wer": 0.4545,
+        "cer": 0.1091
+      },
+      "utmos": 2.906
+    },
+    "gen_006": {
+      "category": "general",
+      "ref": "tafadhali funga mlango kabla ya kuondoka nyumbani",
+      "openai/whisper-large-v3": {
+        "hyp": "tafadhali funga mlangu kabla kuondoka nyumbani",
+        "wer": 0.2857,
+        "cer": 0.0816
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "tafadhali funda mlango kabla ya kuondoka nyumbani",
+        "wer": 0.1429,
+        "cer": 0.0204
+      },
+      "utmos": 3.123
+    },
+    "gen_007": {
+      "category": "general",
+      "ref": "wakulima wanavuna mahindi mwezi huu kutokana na mvua nzuri",
+      "openai/whisper-large-v3": {
+        "hyp": "wakulima wanavuna mahindi mwezi huu kutokana na mvuwa nzui",
+        "wer": 0.2222,
+        "cer": 0.0345
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "wakulima wanavuna mahindi mwezi huu kutokana na mvua mzui",
+        "wer": 0.1111,
+        "cer": 0.0345
+      },
+      "utmos": 2.997
+    },
+    "gen_008": {
+      "category": "general",
+      "ref": "daktari alimshauri mgonjwa apumzike kwa siku tatu",
+      "openai/whisper-large-v3": {
+        "hyp": "laktari alimshaui mgondwa apumziki kwa siku tatu",
+        "wer": 0.5714,
+        "cer": 0.0816
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "laktari alimshawui mgonjwa apumzike kwa siku tatu",
+        "wer": 0.2857,
+        "cer": 0.0612
+      },
+      "utmos": 3.135
+    },
+    "gen_009": {
+      "category": "general",
+      "ref": "safari ya basi kutoka nairobi hadi mombasa huchukua masaa nane",
+      "openai/whisper-large-v3": {
+        "hyp": "safari ya basi kutoka nairobi hadimumbasa huchukua masanani",
+        "wer": 0.4,
+        "cer": 0.0806
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "safari ya basi kutoka nairobi hadi mombasa huchukua masana nne",
+        "wer": 0.2,
+        "cer": 0.0323
+      },
+      "utmos": 3.182
+    },
+    "gen_010": {
+      "category": "general",
+      "ref": "kitabu hiki kinaeleza historia ya afrika mashariki kwa undani",
+      "openai/whisper-large-v3": {
+        "hyp": "kitabu hiki kinaeleza historia ya afrika mashariki kwa undani",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "kitabu hiki kinaeleza historia ya afrika mashariki kwa undani",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.482
+    },
+    "gen_011": {
+      "category": "general",
+      "ref": "wanafunzi walifaulu mtihani wao kwa alama za juu sana",
+      "openai/whisper-large-v3": {
+        "hyp": "wanafuzi walifaulu mtihani wao kwa alama zaaju sana",
+        "wer": 0.3333,
+        "cer": 0.0566
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "wanafunzi walifaulu mtihani wao kwa alama za juu sana",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.672
+    },
+    "gen_012": {
+      "category": "general",
+      "ref": "hali ya hewa leo ni nzuri jua linawaka na upepo ni mwanana",
+      "openai/whisper-large-v3": {
+        "hyp": "hali ya hewa leo ni nzuri duwa lina waka na upepo ni mwanana",
+        "wer": 0.25,
+        "cer": 0.0517
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "hali ya hewa leo ni nzuri juu lina wakana upepo ni mwanana",
+        "wer": 0.25,
+        "cer": 0.0517
+      },
+      "utmos": 2.509
+    },
+    "num_001": {
+      "category": "numbers_dates",
+      "ref": "mkutano utaanza saa tatu asubuhi tarehe kumi na tano julai elfu mbili ishirini na sita",
+      "openai/whisper-large-v3": {
+        "hyp": "mkutamu utanza saa tatu asubuyi tare kumi na tano julay f mia mbili ishirini na sita",
+        "wer": 0.4667,
+        "cer": 0.1395
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "mkutano utanza saa tatu asubuhi tarehe kumi na tano julai elfu mbili ishirini na sita",
+        "wer": 0.0667,
+        "cer": 0.0116
+      },
+      "utmos": 2.226
+    },
+    "num_002": {
+      "category": "numbers_dates",
+      "ref": "bei ya sukari imepanda hadi shilingi elfu tatu mia tano kwa kilo",
+      "openai/whisper-large-v3": {
+        "hyp": "biya sukali inepanda hadi kilindi fmia tatu na tano kwa kilo",
+        "wer": 0.5833,
+        "cer": 0.2031
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "bi ya sukari inapanda hadi chilindi elfu tatu mia tano kwa kilo",
+        "wer": 0.25,
+        "cer": 0.0781
+      },
+      "utmos": 2.642
+    },
+    "num_003": {
+      "category": "numbers_dates",
+      "ref": "timu yetu ilishinda kwa mabao mbili dhidi ya moja",
+      "openai/whisper-large-v3": {
+        "hyp": "imu yetu ilishinda kwa mbao mbili vidi ya muja",
+        "wer": 0.4444,
+        "cer": 0.102
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "timu yetu ilishinda kwa mabao mbili vidi ya moja",
+        "wer": 0.1111,
+        "cer": 0.0408
+      },
+      "utmos": 2.81
+    },
+    "num_004": {
+      "category": "numbers_dates",
+      "ref": "zaidi ya watu mia mbili na hamsini walihudhuria mkutano huo",
+      "openai/whisper-large-v3": {
+        "hyp": "zaidi ya watu miambili na hamsini wali hujuria mkutano huu",
+        "wer": 0.5,
+        "cer": 0.0847
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "zaidi ya watu mia mbili na hamsini walihujuhia mkutano huo",
+        "wer": 0.1,
+        "cer": 0.0508
+      },
+      "utmos": 2.677
+    },
+    "num_005": {
+      "category": "numbers_dates",
+      "ref": "mwaka elfu moja mia tisa sitini na nne tanganyika na zanzibar ziliungana",
+      "openai/whisper-large-v3": {
+        "hyp": "mwaka fmoja mia tisa sitini na nne tandanyika na zanzibar zili ungana",
+        "wer": 0.4167,
+        "cer": 0.0833
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "mwaka elfu moja mia tisa sitini na nne tandanyika na zanzibar ziliungana",
+        "wer": 0.0833,
+        "cer": 0.0139
+      },
+      "utmos": 2.593
+    },
+    "num_006": {
+      "category": "numbers_dates",
+      "ref": "simu yangu mpya iligharimu shilingi elfu arobaini na tano",
+      "openai/whisper-large-v3": {
+        "hyp": "simu yangu mpia ilikarimu shilindi erifu arobaini na tano",
+        "wer": 0.4444,
+        "cer": 0.1053
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "simu yangu mpya ilikarimu shilingi elfu arobaini na tano",
+        "wer": 0.1111,
+        "cer": 0.0351
+      },
+      "utmos": 2.024
+    },
+    "num_007": {
+      "category": "numbers_dates",
+      "ref": "asilimia sabini na nane ya wakazi wanaishi vijijini",
+      "openai/whisper-large-v3": {
+        "hyp": "asilimia sabini na nane ya wakazi wanaishi vijigini",
+        "wer": 0.125,
+        "cer": 0.0196
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "asilimia sabini na nane ya wakazi wanaishi vijijini",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 3.068
+    },
+    "num_008": {
+      "category": "numbers_dates",
+      "ref": "tutaondoka saa kumi na mbili jioni tarehe tatu machi",
+      "openai/whisper-large-v3": {
+        "hyp": "tutaondoka saa kuminambili jioni tareye tatu machi",
+        "wer": 0.4444,
+        "cer": 0.0577
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "tutaondoka saa kumi na mbili jioni tarehe ye tatu machi",
+        "wer": 0.1111,
+        "cer": 0.0577
+      },
+      "utmos": 2.325
+    },
+    "num_009": {
+      "category": "numbers_dates",
+      "ref": "shule ina wanafunzi elfu moja mia mbili na walimu arobaini na nane",
+      "openai/whisper-large-v3": {
+        "hyp": "shule inawanafunzi elfu moja mia moja na mbili na walimu arobaini na nane",
+        "wer": 0.3333,
+        "cer": 0.1364
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "shule ina wanafunzi elfu moja mia mbili na walimu arobaini na nane",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 3.061
+    },
+    "num_010": {
+      "category": "numbers_dates",
+      "ref": "umbali kutoka hapa hadi mjini ni kilomita ishirini na tano",
+      "openai/whisper-large-v3": {
+        "hyp": "umali kutoka hapa hadindini ni kilomita ishirini na tano",
+        "wer": 0.3,
+        "cer": 0.069
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "umali kutoka hapa hadi mjini ni kilomita ishirini na tano",
+        "wer": 0.1,
+        "cer": 0.0172
+      },
+      "utmos": 2.445
+    },
+    "num_011": {
+      "category": "numbers_dates",
+      "ref": "alizaliwa tarehe saba aprili mwaka elfu moja mia tisa na tisini",
+      "openai/whisper-large-v3": {
+        "hyp": "alizaliwa tarehe saba apeli mwaka elfu moja miatisa na tisini",
+        "wer": 0.2727,
+        "cer": 0.0476
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "alizaliwa tarehe saba aprili mwaka elfu moja mia tisa na tisini",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 3.283
+    },
+    "num_012": {
+      "category": "numbers_dates",
+      "ref": "joto la leo ni nyuzi ishirini na nane mjini dodoma",
+      "openai/whisper-large-v3": {
+        "hyp": "yoto la leo ni nyuzi ishirini na nane mgini dodoma",
+        "wer": 0.2,
+        "cer": 0.04
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "yoto la leo ni nyuzi ishirini na nane mjini dodoma",
+        "wer": 0.1,
+        "cer": 0.02
+      },
+      "utmos": 2.63
+    },
+    "cs_001": {
+      "category": "code_switch",
+      "ref": "nimetuma email kwa manager wako asubuhi hii",
+      "openai/whisper-large-v3": {
+        "hyp": "nimetuma emaiko managero wako wa subuhihi",
+        "wer": 0.7143,
+        "cer": 0.2093
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "nimetuma emai kwa managero wako asubuhi hii",
+        "wer": 0.2857,
+        "cer": 0.0465
+      },
+      "utmos": 3.348
+    },
+    "cs_002": {
+      "category": "code_switch",
+      "ref": "tafadhali download fomu hiyo kutoka kwenye website yetu",
+      "openai/whisper-large-v3": {
+        "hyp": "tafadhali dumno amfumu hiyo kutoka kwenye web site yetu",
+        "wer": 0.5,
+        "cer": 0.1455
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "tafadhali domno amfumu hiyo kutoka kwenye ua msitu yetu",
+        "wer": 0.5,
+        "cer": 0.2
+      },
+      "utmos": 2.644
+    },
+    "cs_003": {
+      "category": "code_switch",
+      "ref": "mkutano wa zoom utaanza baada ya lunch",
+      "openai/whisper-large-v3": {
+        "hyp": "mkutana wazoomu utanza bada yaliumchu",
+        "wer": 1.0,
+        "cer": 0.2368
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "mkutano wa zoeo mkuu utaanza baada ya liunch",
+        "wer": 0.4286,
+        "cer": 0.1579
+      },
+      "utmos": 3.096
+    },
+    "cs_004": {
+      "category": "code_switch",
+      "ref": "battery ya simu yangu imeisha nahitaji charger",
+      "openai/whisper-large-v3": {
+        "hyp": "baste ya simu yangu imiisha na hitaji chaldie",
+        "wer": 0.7143,
+        "cer": 0.1957
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "baste ya simu yangu imeisha na hitaji chaldie",
+        "wer": 0.5714,
+        "cer": 0.1739
+      },
+      "utmos": 2.836
+    },
+    "cs_005": {
+      "category": "code_switch",
+      "ref": "alipata job mpya katika kampuni ya teknolojia",
+      "openai/whisper-large-v3": {
+        "hyp": "halipata yobu mpia katika kampuni ya teknolojia",
+        "wer": 0.4286,
+        "cer": 0.0889
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "alipata jobu mpya katika kampuni ya teknolojia",
+        "wer": 0.1429,
+        "cer": 0.0222
+      },
+      "utmos": 2.491
+    },
+    "cs_006": {
+      "category": "code_switch",
+      "ref": "weka password mpya kwenye account yako",
+      "openai/whisper-large-v3": {
+        "hyp": "wakapaswa lumpia kwenye ajuntiako",
+        "wer": 0.8333,
+        "cer": 0.3421
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "wakapasuoa lumpia kwenye atuunti yako",
+        "wer": 0.6667,
+        "cer": 0.3421
+      },
+      "utmos": 3.35
+    },
+    "cs_007": {
+      "category": "code_switch",
+      "ref": "tuliangalia movie nzuri weekend iliyopita",
+      "openai/whisper-large-v3": {
+        "hyp": "tuliangalia movie mzuri wekendi iliopita",
+        "wer": 0.6,
+        "cer": 0.0976
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "tuliangalia muvimu mzuri weye kendi iliyopita",
+        "wer": 0.8,
+        "cer": 0.1707
+      },
+      "utmos": 2.238
+    },
+    "cs_008": {
+      "category": "code_switch",
+      "ref": "daktari alisema nipime blood pressure kila wiki",
+      "openai/whisper-large-v3": {
+        "hyp": "dachitare alisema nipime blodu pesure kila wiki",
+        "wer": 0.4286,
+        "cer": 0.1702
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "daktari alisema ni pime blob pesure kila wiki",
+        "wer": 0.5714,
+        "cer": 0.1064
+      },
+      "utmos": 3.037
+    },
+    "cs_009": {
+      "category": "code_switch",
+      "ref": "bei hiyo ni discount ya asilimia hamsini",
+      "openai/whisper-large-v3": {
+        "hyp": "dehio ni disuntia asilimia hamsini",
+        "wer": 0.5714,
+        "cer": 0.2
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "je hiyo ni diso umti ya asilimia hamsini",
+        "wer": 0.4286,
+        "cer": 0.15
+      },
+      "utmos": 2.924
+    },
+    "cs_010": {
+      "category": "code_switch",
+      "ref": "nitakutumia link ya meeting kesho asubuhi",
+      "openai/whisper-large-v3": {
+        "hyp": "nita kutumia link ya metin kesho asubuhi",
+        "wer": 0.5,
+        "cer": 0.0732
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "nitakutumia linke ya meti nkeshwa asubuhi",
+        "wer": 0.5,
+        "cer": 0.1707
+      },
+      "utmos": 3.152
+    },
+    "cs_011": {
+      "category": "code_switch",
+      "ref": "computer yangu ina virus inahitaji antivirus mpya",
+      "openai/whisper-large-v3": {
+        "hyp": "tompute yangu inavius inahitaji antivirus mtia",
+        "wer": 0.5714,
+        "cer": 0.1224
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "tompo te yangu inavirus inahitaji antivirus mtia",
+        "wer": 0.7143,
+        "cer": 0.1429
+      },
+      "utmos": 2.492
+    },
+    "cs_012": {
+      "category": "code_switch",
+      "ref": "online shopping imekuwa maarufu sana siku hizi",
+      "openai/whisper-large-v3": {
+        "hyp": "kondine shupimbi mekua marufu sama siku hizi",
+        "wer": 0.7143,
+        "cer": 0.2391
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "ondine cha upimbi imekuwa maarufu sana siku hizi",
+        "wer": 0.4286,
+        "cer": 0.1739
+      },
+      "utmos": 2.843
+    },
+    "ne_001": {
+      "category": "named_entities",
+      "ref": "rais wa kenya alizuru mji wa kisumu wiki iliyopita",
+      "openai/whisper-large-v3": {
+        "hyp": "lais wakena alizuru mji wa kisumu wiki iliopita",
+        "wer": 0.4444,
+        "cer": 0.08
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "rais wa kenya alizuru mji wa kisumwiki iliyopita",
+        "wer": 0.2222,
+        "cer": 0.04
+      },
+      "utmos": 3.003
+    },
+    "ne_002": {
+      "category": "named_entities",
+      "ref": "mlima kilimanjaro ndio mlima mrefu zaidi barani afrika",
+      "openai/whisper-large-v3": {
+        "hyp": "mlima kilimanjaru ndiyo mlima mwefu zaidi barani afrika",
+        "wer": 0.375,
+        "cer": 0.0556
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "mlima kilimanjaro ndiyo mlima mwefu zaidi barani afrika",
+        "wer": 0.25,
+        "cer": 0.037
+      },
+      "utmos": 3.017
+    },
+    "ne_003": {
+      "category": "named_entities",
+      "ref": "ziwa victoria linapakana na kenya uganda na tanzania",
+      "openai/whisper-large-v3": {
+        "hyp": "ziwa vichuria linapakana na kenya uganda na tanzania",
+        "wer": 0.125,
+        "cer": 0.0385
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "ziwa vitoria linapakana na kenya udanda na tanzania",
+        "wer": 0.25,
+        "cer": 0.0385
+      },
+      "utmos": 2.824
+    },
+    "ne_004": {
+      "category": "named_entities",
+      "ref": "bandari ya mombasa ni lango kuu la biashara afrika mashariki",
+      "openai/whisper-large-v3": {
+        "hyp": "bandari ya mombasa ni lango kuu la biyashara afrika mashariki",
+        "wer": 0.1,
+        "cer": 0.0167
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "bandari ya mombasa ni lango kuu la biashara afrika mashariki",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.726
+    },
+    "ne_005": {
+      "category": "named_entities",
+      "ref": "chuo kikuu cha nairobi kimepokea wanafunzi wapya elfu kumi",
+      "openai/whisper-large-v3": {
+        "hyp": "chuo kiku uchana iloobi kimepokea wanafunzi wapia fkumi",
+        "wer": 0.6667,
+        "cer": 0.1897
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "chuo kikuu uchana iloobi kimapokea wanafunzi wapia elfu kumi",
+        "wer": 0.4444,
+        "cer": 0.1207
+      },
+      "utmos": 3.382
+    },
+    "ne_006": {
+      "category": "named_entities",
+      "ref": "shirika la afya duniani limetoa taarifa mpya kuhusu chanjo",
+      "openai/whisper-large-v3": {
+        "hyp": "chirika la afya dumiani limetowa tarifa mpia kuhusu chanjo",
+        "wer": 0.5556,
+        "cer": 0.0862
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "shirika la afya duniani limetoa taarifa mpya kuhusu chanjo",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.727
+    },
+    "ne_007": {
+      "category": "named_entities",
+      "ref": "mto tana ni mto mrefu zaidi nchini kenya",
+      "openai/whisper-large-v3": {
+        "hyp": "mtuo tana ni mtuo mlefu zaidi nchini kenya",
+        "wer": 0.375,
+        "cer": 0.075
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "mto tano ni mto mwefu zaidi nchini kenya",
+        "wer": 0.25,
+        "cer": 0.05
+      },
+      "utmos": 2.6
+    },
+    "ne_008": {
+      "category": "named_entities",
+      "ref": "hifadhi ya serengeti huvutia watalii kutoka kote duniani",
+      "openai/whisper-large-v3": {
+        "hyp": "kifadhi ya serengeti huvutia watalihi kutoka kote duniani",
+        "wer": 0.25,
+        "cer": 0.0357
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "hifadhi ya serengeti huvutia watalii kutoka kote duniani",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.66
+    },
+    "ne_009": {
+      "category": "named_entities",
+      "ref": "benki kuu ya tanzania imeshusha riba kwa asilimia mbili",
+      "openai/whisper-large-v3": {
+        "hyp": "denki kuu ya tanzania imeshusha riba kwa silimia mbili",
+        "wer": 0.2222,
+        "cer": 0.0364
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "benki kuu ya tanzania imeshusha riba kwa asilimia mbili",
+        "wer": 0.0,
+        "cer": 0.0
+      },
+      "utmos": 2.723
+    },
+    "ne_010": {
+      "category": "named_entities",
+      "ref": "jiji la dar es salaam lina wakazi zaidi ya milioni sita",
+      "openai/whisper-large-v3": {
+        "hyp": "jili ladae salam li na wakazi zaidi ya milioni sita",
+        "wer": 0.5455,
+        "cer": 0.1273
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "jili la dar es salaam lina wakazi zaidi ya milioni sita",
+        "wer": 0.0909,
+        "cer": 0.0182
+      },
+      "utmos": 2.827
+    },
+    "ne_011": {
+      "category": "named_entities",
+      "ref": "uwanja wa ndege wa jomo kenyatta ndio mkubwa afrika mashariki",
+      "openai/whisper-large-v3": {
+        "hyp": "wanja wandeki wa jomo kinyatandium kubwa afrika mashariki",
+        "wer": 0.6,
+        "cer": 0.1639
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "wanja wa ndege wa jomo kinyasta ndio mkubwa afrika mashariki",
+        "wer": 0.2,
+        "cer": 0.0492
+      },
+      "utmos": 3.074
+    },
+    "ne_012": {
+      "category": "named_entities",
+      "ref": "klabu ya simba ilishinda ubingwa wa ligi msimu huu",
+      "openai/whisper-large-v3": {
+        "hyp": "labu ya simba ilishinda ubingwa waligi msimuhu",
+        "wer": 0.5556,
+        "cer": 0.08
+      },
+      "Jacaranda-Health/ASR-STT": {
+        "hyp": "labu ya simba ilishinda ubingwa wa liji msimu huu",
+        "wer": 0.2222,
+        "cer": 0.04
+      },
+      "utmos": 2.995
+    }
+  }
+}
