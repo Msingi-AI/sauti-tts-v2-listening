@@ -1,8 +1,12 @@
 """Build a fully static listening page from listen/runs/<run>/*.wav.
 
 Usage: python listen/build_page.py
-Output: listen/index.html with relative audio paths — works opened locally
-and on any static host (GitHub Pages, HF, etc.).
+Output: listen/index.html plus an .mp3 next to every .wav.
+
+Players reference the MP3s with preload='none' and a baked-in duration
+label: WAVs made the page fetch tens of MB of metadata up front, which is
+what made it crawl on slow connections. Works opened locally and on any
+static host (GitHub Pages, HF, etc.).
 """
 
 import csv
@@ -10,10 +14,22 @@ import html
 import json
 from pathlib import Path
 
+import soundfile as sf
+
 ROOT = Path(__file__).parent
 RUNS = ROOT / "runs"
 SENTENCES = ROOT.parent / "data" / "eval" / "eval_sentences.csv"
 SW_JUDGE = "Jacaranda-Health/ASR-STT"
+
+
+def ensure_mp3(wav: Path) -> tuple[Path, float]:
+    """Encode wav -> sibling mp3 if missing/stale; return (mp3, seconds)."""
+    mp3 = wav.with_suffix(".mp3")
+    info = sf.info(str(wav))
+    if not mp3.exists() or mp3.stat().st_mtime < wav.stat().st_mtime:
+        data, sr = sf.read(str(wav))
+        sf.write(str(mp3), data, sr, format="MP3")
+    return mp3, info.duration
 
 
 def badge(wer):
@@ -35,11 +51,13 @@ def main():
             clips = json.loads(rj.read_text(encoding="utf-8"))["clips"]
             wer[run] = {cid: c.get(SW_JUDGE, {}).get("wer") for cid, c in clips.items()}
 
-    ref = "reference/voice_prompt.wav"
     body = ["<h1>Sauti TTS V2 — listening page</h1>"]
-    if (ROOT / ref).exists():
+    ref_wav = ROOT / "reference" / "voice_prompt.wav"
+    if ref_wav.exists():
+        ref_mp3, ref_dur = ensure_mp3(ref_wav)
         body.append("<p class='note'>Reference voice (real WAXAL speaker, cloning prompt): "
-                    f"<audio controls preload='metadata' src='{ref}'></audio></p>")
+                    f"<audio controls preload='none' src='reference/{ref_mp3.name}'></audio>"
+                    f" <span class='dur'>{ref_dur:.1f}s</span></p>")
     body.append(f"<p>Runs: {', '.join(f'<b>{r}</b>' for r in runs)}. "
                 "Badges show Swahili-judge WER (green ≤ 0.2, orange ≤ 1, red = run-on).</p>")
 
@@ -52,10 +70,12 @@ def main():
         body.append(f"<div class='clip'><h3>{cid}</h3>"
                     f"<p class='text'>&ldquo;{text}&rdquo;</p><div class='grid'>")
         for run in runs:
-            if (RUNS / run / f"{cid}.wav").exists():
+            wav = RUNS / run / f"{cid}.wav"
+            if wav.exists():
+                mp3, dur = ensure_mp3(wav)
                 b = badge(wer.get(run, {}).get(cid))
-                body.append(f"<div><div class='lbl'>{run} {b}</div>"
-                            f"<audio controls preload='metadata' src='runs/{run}/{cid}.wav'></audio></div>")
+                body.append(f"<div><div class='lbl'>{run} {b} <span class='dur'>{dur:.1f}s</span></div>"
+                            f"<audio controls preload='none' src='runs/{run}/{cid}.mp3'></audio></div>")
         body.append("</div></div>")
 
     page = f"""<!DOCTYPE html><html><head><meta charset='utf-8'>
@@ -70,6 +90,7 @@ h1 {{ border-bottom: 2px solid #444; padding-bottom: .3rem; }}
 .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: .6rem; }}
 .lbl {{ font-size: .82rem; font-weight: 600; margin-bottom: .2rem; }}
 .note {{ background: #f5f5f5; border-left: 4px solid #888; padding: .6rem 1rem; }}
+.dur {{ color: #777; font-weight: 400; font-size: .8rem; }}
 audio {{ width: 250px; }}
 </style></head><body>{''.join(body)}</body></html>"""
 
