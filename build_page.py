@@ -43,7 +43,12 @@ def main():
     with open(SENTENCES, encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
-    runs = sorted(d.name for d in RUNS.iterdir() if d.is_dir() and any(d.glob("*.wav")))
+    # Dirs with a sentences.json are free-form demo sets (e.g. dia_long),
+    # rendered in their own section instead of the eval grid.
+    demo_dirs = sorted(d.name for d in RUNS.iterdir()
+                       if d.is_dir() and (d / "sentences.json").exists())
+    runs = sorted(d.name for d in RUNS.iterdir()
+                  if d.is_dir() and any(d.glob("*.wav")) and d.name not in demo_dirs)
     wer = {}
     for run in runs:
         rj = RUNS / run / "results.json"
@@ -77,6 +82,22 @@ def main():
                 body.append(f"<div><div class='lbl'>{run} {b} <span class='dur'>{dur:.1f}s</span></div>"
                             f"<audio controls preload='none' src='runs/{run}/{cid}.mp3'></audio></div>")
         body.append("</div></div>")
+
+    for demo in demo_dirs:
+        manifest = json.loads((RUNS / demo / "sentences.json").read_text(encoding="utf-8"))
+        body.append(f"<h2>{demo} — long-form demos</h2>")
+        for clip_id, meta in manifest.items():
+            wav = RUNS / demo / f"{clip_id}.wav"
+            if not wav.exists():
+                continue
+            mp3, dur = ensure_mp3(wav)
+            cer = meta.get("check_cer")
+            cer_note = f" · check-CER {cer}" if cer is not None else ""
+            body.append(
+                f"<div class='clip'><h3>{clip_id} <span class='dur'>"
+                f"{meta.get('voice', '')} · {dur:.1f}s{cer_note}</span></h3>"
+                f"<p class='text'>&ldquo;{html.escape(meta['text'])}&rdquo;</p>"
+                f"<audio controls preload='none' src='runs/{demo}/{clip_id}.mp3'></audio></div>")
 
     page = f"""<!DOCTYPE html><html><head><meta charset='utf-8'>
 <title>Sauti TTS V2 — listening page</title>
