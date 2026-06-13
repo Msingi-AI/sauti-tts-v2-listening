@@ -1,0 +1,42 @@
+{
+  "long_001_male": {
+    "text": "Serikali imetangaza mpango mpya wa kuboresha barabara za vijijini ili wakulima waweze kusafirisha mazao yao sokoni kwa urahisi zaidi.",
+    "voice": "male",
+    "check_cer": 0.114
+  },
+  "long_001_female": {
+    "text": "Serikali imetangaza mpango mpya wa kuboresha barabara za vijijini ili wakulima waweze kusafirisha mazao yao sokoni kwa urahisi zaidi.",
+    "voice": "female",
+    "check_cer": 0.205
+  },
+  "long_002_male": {
+    "text": "Wanafunzi wa shule za msingi mkoani Arusha wamepokea vitabu vipya vya kusoma, jambo lililowafurahisha walimu na wazazi wengi sana.",
+    "voice": "male",
+    "check_cer": 0.172
+  },
+  "long_002_female": {
+    "text": "Wanafunzi wa shule za msingi mkoani Arusha wamepokea vitabu vipya vya kusoma, jambo lililowafurahisha walimu na wazazi wengi sana.",
+    "voice": "female",
+    "check_cer": 0.172
+  },
+  "long_003_male": {
+    "text": "Hali ya hewa inatarajiwa kubadilika wiki ijayo ambapo mvua kubwa zitanyesha pwani, hivyo wananchi wanashauriwa kuchukua tahadhari mapema.",
+    "voice": "male",
+    "check_cer": 0.178
+  },
+  "long_003_female": {
+    "text": "Hali ya hewa inatarajiwa kubadilika wiki ijayo ambapo mvua kubwa zitanyesha pwani, hivyo wananchi wanashauriwa kuchukua tahadhari mapema.",
+    "voice": "female",
+    "check_cer": 0.207
+  },
+  "long_004_male": {
+    "text": "Timu ya taifa ilishinda mechi muhimu jana jioni na sasa inajiandaa kwa fainali itakayochezwa mwezi ujao jijini Dar es Salaam.",
+    "voice": "male",
+    "check_cer": 0.105
+  },
+  "long_004_female": {
+    "text": "Timu ya taifa ilishinda mechi muhimu jana jioni na sasa inajiandaa kwa fainali itakayochezwa mwezi ujao jijini Dar es Salaam.",
+    "voice": "female",
+    "check_cer": 0.218
+  }
+}
