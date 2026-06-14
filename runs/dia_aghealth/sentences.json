@@ -1,0 +1,52 @@
+{
+  "ag_001_dia": {
+    "text": "Wakulima wanashauriwa kupanda mbegu bora za mahindi mapema ili kuongeza mavuno msimu huu wa mvua.",
+    "voice": "dia",
+    "check_cer": 0.25
+  },
+  "ag_002_dia": {
+    "text": "Matumizi ya mbolea ya asili huboresha rutuba ya udongo na kupunguza gharama za kilimo kwa wakulima wadogo.",
+    "voice": "dia",
+    "check_cer": 0.133
+  },
+  "ag_003_dia": {
+    "text": "Serikali imeanzisha mpango wa kuwapatia wakulima pembejeo za bei nafuu kama vile mbegu na mbolea.",
+    "voice": "dia",
+    "check_cer": 0.229
+  },
+  "ag_004_dia": {
+    "text": "Kilimo cha umwagiliaji kinawawezesha wakulima kuvuna mazao hata wakati wa kiangazi kirefu.",
+    "voice": "dia",
+    "check_cer": 0.202
+  },
+  "ag_005_dia": {
+    "text": "Uhifadhi mzuri wa nafaka baada ya mavuno husaidia kupunguza upotevu wa chakula ghalani.",
+    "voice": "dia",
+    "check_cer": 0.233
+  },
+  "he_001_dia": {
+    "text": "Wananchi wanahimizwa kupata chanjo dhidi ya magonjwa ya kuambukiza ili kulinda afya za jamii.",
+    "voice": "dia",
+    "check_cer": 0.163
+  },
+  "he_002_dia": {
+    "text": "Kunawa mikono kwa maji safi na sabuni ni njia rahisi na nzuri ya kuzuia kuenea kwa magonjwa.",
+    "voice": "dia",
+    "check_cer": 0.209
+  },
+  "he_003_dia": {
+    "text": "Akina mama wajawazito wanashauriwa kuhudhuria kliniki mara kwa mara kwa ajili ya uchunguzi wa afya.",
+    "voice": "dia",
+    "check_cer": 0.112
+  },
+  "he_004_dia": {
+    "text": "Lishe bora yenye mboga, matunda na protini husaidia mwili kupambana na magonjwa mbalimbali.",
+    "voice": "dia",
+    "check_cer": 0.146
+  },
+  "he_005_dia": {
+    "text": "Kupima afya mara kwa mara husaidia kugundua magonjwa mapema na kuanza matibabu kwa wakati.",
+    "voice": "dia",
+    "check_cer": 0.191
+  }
+}
