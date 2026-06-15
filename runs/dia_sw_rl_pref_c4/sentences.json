@@ -1,0 +1,82 @@
+{
+  "long_001_male": {
+    "text": "Serikali imetangaza mpango mpya wa kuboresha barabara za vijijini, ili wakulima waweze kusafirisha mazao yao sokoni, kwa urahisi zaidi.",
+    "voice": "male",
+    "chosen_candidate": 1,
+    "chosen_path": "long_001_male.wav",
+    "check_cer": 0.0758,
+    "score": 0.814,
+    "duration": 7.837,
+    "words_per_second": 2.424
+  },
+  "long_001_female": {
+    "text": "Serikali imetangaza mpango mpya wa kuboresha barabara za vijijini, ili wakulima waweze kusafirisha mazao yao sokoni, kwa urahisi zaidi.",
+    "voice": "female",
+    "chosen_candidate": 0,
+    "chosen_path": "long_001_female.wav",
+    "check_cer": 0.1212,
+    "score": 0.6902,
+    "duration": 8.766,
+    "words_per_second": 2.168
+  },
+  "long_002_male": {
+    "text": "Wanafunzi wa shule za msingi mkoani Arusha, wamepokea vitabu vipya vya kusoma, jambo lililowafurahisha walimu na wazazi wengi sana.",
+    "voice": "male",
+    "chosen_candidate": 0,
+    "chosen_path": "long_002_male.wav",
+    "check_cer": 0.1484,
+    "score": 0.662,
+    "duration": 8.057,
+    "words_per_second": 2.358
+  },
+  "long_002_female": {
+    "text": "Wanafunzi wa shule za msingi mkoani Arusha, wamepokea vitabu vipya vya kusoma, jambo lililowafurahisha walimu na wazazi wengi sana.",
+    "voice": "female",
+    "chosen_candidate": 1,
+    "chosen_path": "long_002_female.wav",
+    "check_cer": 0.1484,
+    "score": 0.6041,
+    "duration": 9.311,
+    "words_per_second": 2.041
+  },
+  "long_003_male": {
+    "text": "Hali ya hewa inatarajiwa kubadilika wiki ijayo, ambapo mvua kubwa zitanyesha pwani, hivyo wananchi wanashauriwa kuchukua tahadhari mapema.",
+    "voice": "male",
+    "chosen_candidate": 2,
+    "chosen_path": "long_003_male.wav",
+    "check_cer": 0.1556,
+    "score": 0.6412,
+    "duration": 7.767,
+    "words_per_second": 2.317
+  },
+  "long_003_female": {
+    "text": "Hali ya hewa inatarajiwa kubadilika wiki ijayo, ambapo mvua kubwa zitanyesha pwani, hivyo wananchi wanashauriwa kuchukua tahadhari mapema.",
+    "voice": "female",
+    "chosen_candidate": 1,
+    "chosen_path": "long_003_female.wav",
+    "check_cer": 0.1407,
+    "score": 0.649,
+    "duration": 8.243,
+    "words_per_second": 2.184
+  },
+  "long_004_male": {
+    "text": "Timu ya taifa ilishinda mechi muhimu jana jioni, na sasa inajiandaa kwa fainali, itakayochezwa mwezi ujao jijini Dar es Salaam.",
+    "voice": "male",
+    "chosen_candidate": 1,
+    "chosen_path": "long_004_male.wav",
+    "check_cer": 0.121,
+    "score": 0.6833,
+    "duration": 7.779,
+    "words_per_second": 2.571
+  },
+  "long_004_female": {
+    "text": "Timu ya taifa ilishinda mechi muhimu jana jioni, na sasa inajiandaa kwa fainali, itakayochezwa mwezi ujao jijini Dar es Salaam.",
+    "voice": "female",
+    "chosen_candidate": 2,
+    "chosen_path": "long_004_female.wav",
+    "check_cer": 0.1452,
+    "score": 0.6543,
+    "duration": 8.208,
+    "words_per_second": 2.437
+  }
+}
